@@ -4,6 +4,7 @@ from MyFrame01 import MyFrama01
 from MyFrame02 import MyFrama02
 from MyFrame03 import MyFrame03
 
+
 # アプリケーションクラスだよ
 class Application(tk.Frame):
     def __init__(self, master):
