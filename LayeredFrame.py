@@ -18,13 +18,13 @@ class LayeredFrame(ttk.Frame):
         self.grid_columnconfigure(0, weight=1)  # Grid 縦 (1)
 
 
-    # 現在のページを返す
+    # 現在のページを返す (propertyなので変数のように使う)
     @property
     def currentPage(self):
         return self._pages.get(self._current, None)
 
 
-    # 現在のページ名を返す
+    # 現在のページ名を返す (propertyなので変数のように使う)
     @property
     def currentPageName(self):
         return self._current
