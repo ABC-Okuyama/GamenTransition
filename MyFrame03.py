@@ -60,8 +60,8 @@ class MyFrame03(ttk.Frame):
         self.tree.bind("<<TreeviewSelect>>", self.on_tree_select)
 
         # TreeViewとScrollView配置
-        self.tree.pack(side="left", fill="y")
-        self.scrollbar.pack(side="left", fill="y")
+        self.tree.pack(side=tk.LEFT, fill=tk.Y)
+        self.scrollbar.pack(side=tk.LEFT, fill=tk.Y)
 
 
     # TreeView 項目選択された時の処理
